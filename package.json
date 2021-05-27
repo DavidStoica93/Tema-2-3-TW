@@ -1,0 +1,17 @@
+{
+  "name": "tema2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server dataCarbonara.json --static ./public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json-server": "^0.16.3"
+  }
+}

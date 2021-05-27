@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/2985956539.js" crossorigin="anonymous"></script>
+
+    <link rel=icon 
+    href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14/svgs/solid/drumstick-bite.svg>
+    <title>
+        Spaghetti Carbonara
+    </title>
+
+    <link rel="stylesheet" href="MyStyle.css">
+</head>
+
+<body>
+    <!-- title -->
+    <div class="container-title">
+        <div class="image-egg">
+            <img src="egg.png" width="75px">
+        </div>
+        <div class="title">
+            DAVID'S FOOD BLOG
+        </div>
+        <!-- contact -->
+        <div class="buttons">
+            <button onclick="document.location='https://twitter.com/'" 
+                class="btn"><i class="fab fa-twitter fa-2x"></i></button>
+            <button onclick="document.location='https://facebook.com/'" 
+                class="btn"><i class="fab fa-facebook fa-2x"></i></button>
+            <button onclick="document.location='https://instagram.com/'" 
+                class="btn"><i class="fab fa-instagram fa-2x"></i></button>
+            <button onclick="document.location='https://pinterest.com/'" 
+                class="btn"><i class="fab fa-pinterest fa-2x"></i></button>
+        </div>
+    </div>
+
+    <hr class="top-lines">
+
+    <!-- menu -->
+    <div class="menu">
+        <a href="home.html">HOME</a>
+        <div class="dropdown">
+            <a href="recipes.html">RECIPES</a>
+            <div class="dropdown-content">
+              <a href="to_eat.html">TO EAT</a>
+              <a href="to_drink.html">TO DRINK</a>
+            </div>
+        </div>
+        <a href="about.html">ABOUT</a>
+    </div>
+
+    <hr class="top-lines">
+
+    <!-- carbonara -->
+    <h1 class="recipe-name">Real Spaghetti Carbonara</h1>
+    <button onclick="addIngredient({'title':prompt()}, 'new')">Add new ingredient</button>
+
+    <div class="recipe-container">
+        <img src="spaghetti carbonara.jpeg" class="recipe-image">
+        <ul id="container-ingredients">
+            
+          </ul>
+    </div>
+    <h1 class="recipe-name">METHOD</h1>
+    <ol type="1" class="method">
+        <li>Put the egg yolks into a bowl, finely grate in the Parmesan, season with pepper, then mix well with a fork and put to one side.</li>
+        <li>Cut any hard skin off the pancetta and set aside, then chop the meat.</li>
+        <li>Cook the spaghetti in a large pan of boiling salted water until al dente.</li>
+        <li>Meanwhile, rub the pancetta skin, if you have any, all over the base of a medium frying pan (this will add fantastic flavour, or use 1 tablespoon of oil instead), then place over a medium-high heat.</li>
+        <li>Peel the garlic, then crush with the palm of your hand, add it to the pan and leave it to flavour the fat for 1 minute. Stir in the pancetta, then cook for 4 minutes, or until it starts to crisp up.</li>
+        <li>Pick out and discard the garlic from the pan, then, reserving some of the cooking water, drain and add the spaghetti. Toss well over the heat so it really soaks up all that lovely flavour, then remove the pan from the heat.</li>
+        <li>Add a splash of the cooking water and toss well, season with pepper, then pour in the egg mixture – the pan will help to cook the egg gently, rather than scrambling it. Toss well, adding more cooking water until it’s lovely and glossy.</li>
+        <li>Serve with a grating of Parmesan and an extra twist of pepper.</li>
+        <li>Tips: Use ready-sliced quality pancetta if you can’t buy it in one piece. It’s traditional to use spaghetti in this recipe, but bucatini or rigatoni are just as good.</li>
+    </ol>
+    <button onclick = "alert('Eat healthy!')">Motivational</button>
+</body>
+</html>
+
+<script src="./reteta.js" ></script>
